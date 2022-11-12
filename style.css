@@ -48,4 +48,16 @@
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
   }
+  /* This is were we're going to edit the button and styling */
+
+  .button {
+    border: .5px solid rgba(92, 92, 92, 0.137);
+    display: flex; 
+    height: 100px;
+    width: 100%;
+    /* Using flex vs having inline, but to the containder we are trying to create. */
+    align-items: center;
+    justify-content: center;
+  }
+
   
