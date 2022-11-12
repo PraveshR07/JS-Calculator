@@ -58,6 +58,14 @@
     /* Using flex vs having inline, but to the containder we are trying to create. */
     align-items: center;
     justify-content: center;
+    font-size: 30px ;
+    cursor: pointer;
   }
 
-  
+  .button:hover {
+    background-color: rgb(45, 157, 242);
+  }
+
+  .btn-0 {
+    grid-column: 1/3;
+  }
